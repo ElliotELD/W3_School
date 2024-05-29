@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#nav {
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* static */
+    position: fixed;
+}
+
+#nav #nav-left a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+#nav #nav-left {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav #nav-right i {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+#hero img {
+    width: 100%;
+    height: 100vh;
+}
+
+#hero {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+
+#hero h3 {
+    margin-top: -100px;
+
+}
+
+#band-about {
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#small-para {
+    font-style: italic;
+    color: #999;
+}
+
+#big-para {
+    padding: 1% 15%;
+    text-align: justify;
+}
+
+.img-band-members {
+    text-align: center;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+#tour-date-container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 1% 20%;
+
+}
+
+#tour-date-container h1,
+p {
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+h1 {
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+
+}
+
+#tour-date-container p {
+    font-style: italic;
+
+}
+
+.text-grey {
+    color: lightgrey;
+}
+
+#tickets-solds {
+    width: 100%;
+    height: 15vh;
+    background-color: #fff;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tickets-solds p {
+    text-align: left;
+    padding: 5px 20px;
+
+
+}
+
+#tickets-solds span {
+    font-size: 1em;
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+#tickets-solds #bg-round {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+hr {
+    background-color: lightgrey;
+}
+
+.location-image-container {
+    margin-top: 20px;
+    width: 200px;
+    height: 50vh;
+    background-color: #fff;
+
+}
+
+.location-image-container h5,
+p {
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.location-image-container p {
+    text-align: justify;
+}
+
+.location-image-container button {
+    margin-left: 10px;
+    background-color: black;
+    width: 100px;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flex-row {
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+}
+
+.band-contact-container {
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+
+}
+
+.band-contact-container h1 {
+    text-align: center;
+}
+
+.band-contact-container p {
+    text-align: center;
+    color: lightgrey;
+    font-style: italic;
+
+
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: gainsboro; */
+    padding: 10px 150px;
+}
+
+.address-icon {
+    display: flex;
+    /* align-items: in */
+    flex-direction: column;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.form-btn button {
+    margin-top: 10px;
+    background-color: black;
+    width: 100px;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: flex-end;
+    width: 100%;
+    cursor: pointer;
+    border-style: none;
+}
+
+.address-form input {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #999;
+
+}
+
+.message input {
+    /* width: 100%; */
+    width: 451px;
+}
+
+#bottom-image{
+    width: 100%;
+}
+#bottom-image img{
+    width: 100%;
+    height: 100vh;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer-icons i{
+    font-size: 2rem;
+}
+#footer-icons i:hover{
+    color: lightslategrey;
+    /* font-size: 2rem; */
+}

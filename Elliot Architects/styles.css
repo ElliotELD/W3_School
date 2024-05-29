@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: #ffffff;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
+    /* Makes the navbar fixed */
+    position: fixed;
+    /* Keeps it at the top of the page */
+    top: 0;
+    /* Ensures it's on top of other elements */
+    z-index: 1000;
+}
+
+#navbar-left h3,
+p {
+    display: inline;
+    color: #000000;
+
+
+}
+
+#navbar-left h3 {
+    letter-spacing: 4px;
+}
+
+#navbar-left p {
+    letter-spacing: 4px;
+}
+
+#navbar-right a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1px 10px;
+    letter-spacing: 4px;
+
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0px 10px;
+}
+
+#hero image {
+    width: 100%;
+
+}
+
+#center-text {
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30%;
+    margin-left: 45%;
+
+    gap: 20px;
+
+}
+
+#center-text h1,
+p {
+    display: inline;
+    letter-spacing: 4px;
+
+
+}
+
+#center-text h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 70%;
+    width: 5vw;
+    height: 50px;
+    text-align: center;
+    padding: 2px 4px;
+}
+
+#center-text p {
+    font-size: 1.5rem;
+    color: #ffffff;
+
+}
+
+#hero-projects {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10%;
+    padding: 10px 50px;
+
+}
+
+
+#image-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 20px;
+}
+
+.img-box {
+    width: 25%;
+    height: 32vh;
+    background-color: #000000;
+}
+
+.img-box h3 {
+    padding: 5px 10px;
+    color: #ffffff;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+#about {
+    width: 100%;
+    padding: 10px 50px;
+    text-align: justify;
+}
+
+#about h3 {
+    padding-bottom: 30px;
+}
+
+#about p {
+    padding-bottom: 30px;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+
+#about-images-container {
+    width: 100%;
+    padding: 20px 50px;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+}
+
+.person-img {
+    width: 25%;
+    height: 65vh;
+    /* background-color: red; */
+}
+
+#about-images-container img {
+    width: 100%;
+}
+
+#about-images-container h3 {
+    font-weight: 400;
+    color: grey;
+}
+
+#btn-contact {
+    padding-top: 20px;
+}
+
+#btn-contact button {
+    width: 100%;
+    height: 6vh;
+    font-size: 1rem;
+    border-style: none;
+}
+
+#btn-contact button:hover {
+    background-color: rgba(128, 128, 128, 0.454);
+}
+
+#contact-form {
+    width: 100%;
+    height: 70vh;
+    padding: 10px 50px;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form h1 {
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#contact-form p {
+    padding-bottom: 20px;
+}
+
+#form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-section input {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#form-section #btn {
+    background-color: black;
+    width: 10%;
+    color: #ffffff;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+#location-img {
+    width: 100%;
+    padding: 50px;
+}
+
+#location-img img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 12vh;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #ffffff;
+    letter-spacing: normal;
+
+}
+
+footer a {
+    color: #ffffff;
+    letter-spacing: 2px;
+
+}
