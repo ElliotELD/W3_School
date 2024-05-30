@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karma", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* 
+colors
+#000000
+#ffffff
+#616161
+
+*/
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 20px 170px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav i {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.nav h3 {
+    font-size: 22px;
+}
+
+.pictures {
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.pictures img {
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pictures img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pic_container h2,
+p {
+    padding: 8px;
+    text-align: center;
+}
+
+.pic_container {
+    padding-top: 30px;
+}
+
+.navigate {
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bgblack {
+    background-color: black;
+    color: white;
+
+}
+
+.chef h2 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.chef {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/asset\ 7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -50px;
+}
+
+.whoami {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_part h2 {
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+
+.footer .foot_part {
+    width: 30%;
+    padding: 10px 5px;
+
+}
+
+.foot_part p {
+    text-align: justify;
+}
+
+#link {
+    color: black;
+
+}
+
+.post {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.post:hover {
+    background-color: whitesmoke;
+
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+}
