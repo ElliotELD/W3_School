@@ -262,3 +262,55 @@ body {
     color: black;
     font-weight: 700;
 }
+
+.form {
+    width: 100%;
+    height: 50vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+form input {
+    width: 100%;
+    height: 8vh;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+.btn button {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    margin-left: -350px;
+    width: 161px;
+    height: 41px;
+    background-color: #000000;
+    color: #fff;
+    padding: 12px;
+    border: none;
+}
+
+.footer {
+    margin-top: 1300px;
+    width: 100%;
+    height: 10vh;
+    background-color: #e0dbdbbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    font-size: 1.2rem;
+}
+
+footer p a {
+    color: black;
+}
