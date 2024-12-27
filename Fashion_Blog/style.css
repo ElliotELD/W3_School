@@ -42,9 +42,20 @@ nav {
     padding: 10px;
 }
 
+
 .nav_left i {
     font-size: 18px;
     color: #ffffff;
+}
+
+.nav_left i:hover {
+    color: #a49b9b;
+    transition: color 0.1s ease-in-out;
+}
+
+.nav_right i:hover {
+    color: #a49b9b;
+    transition: color 0.1s ease-in-out;
 }
 
 .nav_right a {
@@ -73,8 +84,22 @@ nav {
 
 .hero h1 {
     text-align: center;
-    /* padding-top: 10px; */
     margin-top: 50px;
+    animation: coolAnimation 2s infinite;
+}
+
+@keyframes coolAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .bg-black {
@@ -119,6 +144,12 @@ nav {
     font-size: 16px;
     font-weight: 600;
     background-color: #f1f1f1b1;
+}
+
+.model_content button:hover {
+    background-color: #f1f1f1b1;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .about {
@@ -555,7 +586,6 @@ nav {
     padding: 10px;
 }
 
-
 .form button {
     margin-top: 10px;
     padding: 10px;
@@ -563,6 +593,11 @@ nav {
     background-color: rgb(242, 75, 75);
     border: none;
     color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: rgb(31, 31, 33);
 }
 
 .footer {

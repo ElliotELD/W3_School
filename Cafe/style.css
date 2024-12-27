@@ -7,11 +7,10 @@
 html,
 body {
     height: 100%;
-
     width: 100%;
     font-family: 'Inconsolata', sans-serif;
+    scroll-behavior: smooth;
 }
-
 
 .navbar {
     display: flex;
@@ -35,7 +34,12 @@ body {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    /* transition: color 0.3s; */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+    transform: scale(1.1);
 }
 
 .nav-links li {
@@ -44,6 +48,12 @@ body {
     display: flex;
     padding: 10px 10px;
     justify-content: space-around;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-links li:hover {
+    background-color: #333;
+    transform: translateY(-5px);
 }
 
 .hero {
@@ -67,6 +77,10 @@ body {
     font-size: 90px;
     font-weight: 500;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+
 }
 
 .hero_btm {
@@ -295,6 +309,13 @@ form input {
     color: #fff;
     padding: 12px;
     border: none;
+}
+
+.btn button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.3s ease-in-out;
 }
 
 .footer {
