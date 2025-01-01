@@ -174,7 +174,11 @@ hr {
     width: 200px;
     height: 50vh;
     background-color: #fff;
+}
 
+.location-image-container img {
+    width: 100%;
+    height: 50%;
 }
 
 .location-image-container h5,
@@ -277,14 +281,16 @@ p {
     width: 451px;
 }
 
-#bottom-image{
+#bottom-image {
     width: 100%;
 }
-#bottom-image img{
+
+#bottom-image img {
     width: 100%;
     height: 100vh;
 }
-footer{
+
+footer {
     width: 100%;
     height: 20vh;
     /* flex */
@@ -293,10 +299,12 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
-#footer-icons i{
+
+#footer-icons i {
     font-size: 2rem;
 }
-#footer-icons i:hover{
+
+#footer-icons i:hover {
     color: lightslategrey;
     /* font-size: 2rem; */
 }
